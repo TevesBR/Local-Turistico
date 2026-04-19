@@ -8,6 +8,11 @@
   line-height: 150%;
 }
 
+body {
+  text-align: left;
+  background-color: #F5F4F0;
+}
+
 #page {
   width: 1120px;
   padding: 24px;
@@ -19,11 +24,20 @@ h4 {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
+
+  margin-bottom: 8px;
 }
 
 h1 {
   font-size: 36px;
   margin: 8px auto 40px;
+  color: #1B1B1B;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #1B1B1B;
 }
 
 img {
@@ -32,8 +46,62 @@ img {
   margin-bottom: 24px;
 }
 
-span {
-  display: flex;
+#start p {
   font-style: oblique;
   text-align: center;
+  color: #333333;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+#history h4 {
+  margin-top: 64px;
+}
+
+/* Templos */
+#templos img {
+  height: 375px;
+  object-fit: cover;
+  margin-top: 44px;
+}
+
+#templos h3 {
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+#templos p {
+  line-height: 1.6;
+  margin-top: 4px;
+}
+
+#templos ul {
+  list-style-position: inside;
+}
+
+#templos ul li {
+  color: #0C51A7;
+  font-weight: bold;
+  padding-left: 6px;
+}
+
+#templos ul li.casais {
+  color: #591B98;
+}
+
+#templos ul li.familias {
+  color: #E5245E;
+}
+
+#templos ul li.orcamento {
+  color: #E95E10;
+}
+
+#templos ul li::marker {
+  color: #333333;
 }
