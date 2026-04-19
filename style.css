@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  line-height: 150%;
+}
+
+#page {
+  width: 1120px;
+  padding: 24px;
+  margin: 88px 80px 137px;
+}
+
+h4 {
+  color: #E1624F;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 8px auto 40px;
+}
+
+img {
+  border-radius: 28px;
+  width: 1120px;
+  margin-bottom: 24px;
+}
+
+span {
+  display: flex;
+  font-style: oblique;
+  text-align: center;
+}
