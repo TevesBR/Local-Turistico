@@ -16,7 +16,7 @@ body {
 #page {
   width: 1120px;
   padding: 24px;
-  margin: 88px 80px 137px;
+  margin: 88px 80px 48px;
 }
 
 h4 {
@@ -40,6 +40,10 @@ h2 {
   color: #1B1B1B;
 }
 
+p {
+  color: #333333;
+}
+
 img {
   border-radius: 28px;
   width: 1120px;
@@ -49,7 +53,6 @@ img {
 #start p {
   font-style: oblique;
   text-align: center;
-  color: #333333;
 }
 
 .divider {
@@ -73,6 +76,7 @@ img {
 #templos h3 {
   font-size: 28px;
   margin-bottom: 4px;
+  color: #1B1B1B;
 }
 
 #templos p {
@@ -104,4 +108,20 @@ img {
 
 #templos ul li::marker {
   color: #333333;
+}
+
+.final p {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 65px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  vertical-align: middle;
+  width: 16px;
+  margin-bottom: 3px;
 }
